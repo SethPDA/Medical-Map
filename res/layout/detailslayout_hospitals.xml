@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center"
+            android:text="@+id/label"
+            android:textSize="40dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp" >
+
+            <ImageView
+                android:id="@+id/mapbutton1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/show_map_button"
+                android:onClick="clickShowMapButton" />
+
+            <ImageView
+                android:id="@+id/rate_icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/rate_icon_idle"
+                android:onClick="clickRateIcon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/mapText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="55dp"
+                android:text="Show On Map" />
+            
+            <TextView
+                android:id="@+id/ratingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="70dp"
+                android:text="RatingText" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageLine"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/line" />
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="620dp" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/descDetails"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Details:"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/descPhone"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Phone:"
+                    android:textStyle="bold" />"
+
+                <TextView
+                    android:id="@+id/descDetailsPhone"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/descIsSpecial"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Is Special:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descDetailsIsSpecial"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descAddress"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Address:"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/descDetailsAddressCity"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/descDetailsAddressStreet"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                <TextView
+                    android:id="@+id/descDetailsAddressNumber"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsText5"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Schedule:"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSchedule"
+                    android:layout_width="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsText5"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Remark:"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/descDetailsRemark"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsText5"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Type:"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/descDetailsType"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descSpec"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Specialities:"
+                    android:textStyle="bold" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities2"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities3"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities4"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities5"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities6"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities7"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities8"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities9"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                <TextView
+                    android:id="@+id/descDetailsSpecialities10"
+                    android:layout_width="176dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+                
+                
+            </LinearLayout>
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/contactImage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="95dp"
+                android:layout_weight="0.59"
+                android:src="@drawable/ic_launcher" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    </ScrollView>
+
+</LinearLayout>

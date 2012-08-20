@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Medical Map</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Medical Map</string>
+	<string name="url_base">http://82.77.55.81:9090/MedicalMap/PublicFiles/</string>
+	
+    
+    <string name="test">dfdfdf \n dfdfdf \n</string>
+	
+</resources>
